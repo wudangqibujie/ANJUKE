@@ -1,6 +1,10 @@
 from lxml import etree
 import logging
 import matplotlib
+
+import aiohttp
+
+
 import requests
 logging.basicConfig(level=logging.INFO)
 def master_parse(page_source ):
