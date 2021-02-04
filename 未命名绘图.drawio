@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-04T08:42:18.518Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="YPb6dJX2NCvRTAA6Hgp7" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-04T09:15:17.725Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="E56S5wVaJr-Rg8fRAOYf" version="14.2.9" type="github">
   <diagram id="jXWVS1nJ8mBkfSVFLXK5" name="Page-1">
-    <mxGraphModel dx="1777" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="3046" dy="1089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -519,6 +519,39 @@
         </mxCell>
         <mxCell id="T_8p9TyNU_sb_ak6CZyA-233" value="近似算法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="T_8p9TyNU_sb_ak6CZyA-225">
           <mxGeometry x="150" y="80" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T_8p9TyNU_sb_ak6CZyA-246" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T_8p9TyNU_sb_ak6CZyA-215" target="T_8p9TyNU_sb_ak6CZyA-226">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_8p9TyNU_sb_ak6CZyA-247" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="2100" y="1720" width="320" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="T_8p9TyNU_sb_ak6CZyA-248" value="&lt;b&gt;&lt;font color=&quot;#330000&quot;&gt;节点分裂&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" vertex="1" parent="T_8p9TyNU_sb_ak6CZyA-247">
+          <mxGeometry width="120" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="T_8p9TyNU_sb_ak6CZyA-249" value="定义" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="T_8p9TyNU_sb_ak6CZyA-247">
+          <mxGeometry y="96" width="120" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="T_8p9TyNU_sb_ak6CZyA-250" value="静态属性" style="rounded=1;whiteSpace=wrap;html=1;horizontal=0;" vertex="1" parent="T_8p9TyNU_sb_ak6CZyA-247">
+          <mxGeometry x="120" width="30" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="T_8p9TyNU_sb_ak6CZyA-251" value="特征离散化&lt;br&gt;直方图统计梯度信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="T_8p9TyNU_sb_ak6CZyA-247">
+          <mxGeometry x="150" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T_8p9TyNU_sb_ak6CZyA-252" value="动态属性" style="rounded=1;whiteSpace=wrap;html=1;horizontal=0;" vertex="1" parent="T_8p9TyNU_sb_ak6CZyA-247">
+          <mxGeometry x="120" y="96" width="30" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="T_8p9TyNU_sb_ak6CZyA-253" value="驱动因素" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="T_8p9TyNU_sb_ak6CZyA-247">
+          <mxGeometry y="128" width="120" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="T_8p9TyNU_sb_ak6CZyA-254" value="Leaf Wise" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="T_8p9TyNU_sb_ak6CZyA-247">
+          <mxGeometry x="150" y="100" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T_8p9TyNU_sb_ak6CZyA-256" value="单边梯度采样" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="T_8p9TyNU_sb_ak6CZyA-247">
+          <mxGeometry x="150" y="50" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T_8p9TyNU_sb_ak6CZyA-255" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T_8p9TyNU_sb_ak6CZyA-140" target="T_8p9TyNU_sb_ak6CZyA-248">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
